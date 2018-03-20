@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="865" height="373"/>
+    </constraints>
+    <properties>
+      <preferredSize width="771" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ee460" class="javax.swing.JButton" binding="start">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1842769"/>
+          <enabled value="true"/>
+          <text value="Пуск"/>
+        </properties>
+      </component>
+      <component id="f1f7a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Стоимость погруженного в грузовик"/>
+        </properties>
+      </component>
+      <component id="de195" class="javax.swing.JTextField" binding="priceField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4909"/>
+          <enabled value="false"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="c8742" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Вынесенное из склада"/>
+        </properties>
+      </component>
+      <component id="659b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Склад"/>
+        </properties>
+      </component>
+      <component id="5479" class="javax.swing.JButton" binding="restartButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1854910"/>
+          <hideActionText value="false"/>
+          <text value="Сброс"/>
+        </properties>
+      </component>
+      <component id="5e1fb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Max : 600"/>
+        </properties>
+      </component>
+      <component id="e772f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Max : 50"/>
+        </properties>
+      </component>
+      <component id="f2f27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Max : 250"/>
+        </properties>
+      </component>
+      <component id="74e6f" class="javax.swing.JProgressBar" binding="storageBar">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-9065906"/>
+          <indeterminate value="false"/>
+          <maximum value="600"/>
+          <string value="600"/>
+          <stringPainted value="true"/>
+          <value value="600"/>
+        </properties>
+      </component>
+      <component id="3d3fe" class="javax.swing.JProgressBar" binding="takenBar">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-5636104"/>
+          <maximum value="50"/>
+          <string value="0"/>
+          <stringPainted value="true"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="e8c7c" class="javax.swing.JProgressBar" binding="trackBar">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1863302"/>
+          <maximum value="250"/>
+          <string value="0"/>
+          <stringPainted value="true"/>
+        </properties>
+      </component>
+      <component id="a9a23" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Петров"/>
+        </properties>
+      </component>
+      <component id="9c75a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Иванов"/>
+        </properties>
+      </component>
+      <component id="f50bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Нечепорчук"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
